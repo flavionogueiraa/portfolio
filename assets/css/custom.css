@@ -2,3 +2,10 @@
     text-decoration: none;
     color: inherit;
 }
+
+.custom-icon {
+    color: #EA8A95;
+    width: 6.5rem;
+    height: 6.5rem;
+    margin-bottom: 1rem;
+}

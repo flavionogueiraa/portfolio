@@ -6,9 +6,13 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="./assets/css/main.css" />
+	<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+	<script src="./assets/js/includedContent.js"></script>
 </head>
 
 <body class="is-preload">
+	<div id="includedContent"></div>
+
 	<!-- Nav -->
 	<nav id="nav">
 		<ul class="container">
@@ -50,7 +54,9 @@
 				<a href="https://github.com/TimeNovaData/nova_data_snippets" target="_blank"
 					class="decoration-none col-4 col-6-medium col-12-small">
 					<section class="box style1">
-						<span class="icon featured fa-comments"></span>
+						<svg class="custom-icon">
+							<use xlink:href="#icon_circle"></use>
+						</svg>
 						<h3>novadata Snippets</h3>
 						<p>Snippets que você (desenvolvedor back Django) usa no dia a dia para facilitar e acelerar seu
 							fluxo de trabalho!</p>
@@ -59,7 +65,9 @@
 				<a href="https://github.com/TimeNovaData/django_app_modelo" target="_blank"
 					class="decoration-none col-4 col-6-medium col-12-small">
 					<section class="box style1">
-						<span class="icon solid featured fa-camera-retro"></span>
+						<svg class="custom-icon">
+							<use xlink:href="#icon_django"></use>
+						</svg>
 						<h3>Django app modelo</h3>
 						<p>Construa uma app Django super poderosa com configurações e pastas pré definidas com apenas um
 							comando!</p>
@@ -68,7 +76,9 @@
 				<a href="https://github.com/TimeNovaData/heroku_modelo" target="_blank"
 					class="decoration-none col-4 col-6-medium col-12-small">
 					<section class="box style1">
-						<span class="icon featured fa-thumbs-up"></span>
+						<svg class="custom-icon">
+							<use xlink:href="#icon_heroku"></use>
+						</svg>
 						<h3>Django-Heroku modelo</h3>
 						<p>Faça toda a configuração necessária para rodar um projeto Django no Heroku com apenas um
 							comando!</p>
