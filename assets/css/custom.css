@@ -4,8 +4,36 @@
 }
 
 .custom-icon {
-    color: #EA8A95;
+    color: #5cf6ae;
     width: 6.5rem;
     height: 6.5rem;
     margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 1280px) {
+    .custom-image {
+        height: 25rem;
+        margin-bottom: 1rem;
+    }
+
+    .novadata-image {
+        width: 25rem !important;
+        height: 25rem;
+        align-self: center;
+        display: initial !important;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .custom-image {
+        height: 16.875rem;
+        margin-bottom: 1rem;
+    }
+
+    .novadata-image {
+        width: 16.875rem !important;
+        height: 16.875rem;
+        align-self: center;
+        display: initial !important;
+    }
 }
