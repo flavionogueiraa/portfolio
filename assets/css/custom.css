@@ -10,6 +10,10 @@
     margin-bottom: 1rem;
 }
 
+.cursor-pointer {
+    cursor: pointer;
+}
+
 @media screen and (min-width: 1280px) {
     .custom-image {
         height: 25rem;
@@ -25,6 +29,10 @@
 }
 
 @media screen and (max-width: 1280px) {
+    .d-sm-none {
+        display: none !important;
+    }
+
     .custom-image {
         height: 16.875rem;
         margin-bottom: 1rem;
